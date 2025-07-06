@@ -73,3 +73,4 @@ apiTesting/
 - **Dependencies**: Test 2 depends on Test 1 (runs in sequence)
 - **Verification**: Uses GET requests to ensure operations actually worked
 - **Cleanup**: Automatically deletes the created board 
+# apiTesting
