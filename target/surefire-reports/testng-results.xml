@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-06T19:50:27 AEST" name="Surefire suite" finished-at="2025-07-06T19:50:29 AEST" duration-ms="1828">
+    <groups>
+    </groups>
+    <test started-at="2025-07-06T19:50:27 AEST" name="Surefire test" finished-at="2025-07-06T19:50:29 AEST" duration-ms="1828">
+      <class name="com.example.tests.SimpleBoardTest">
+        <test-method signature="testCreateBoard()[pri:0, instance:com.example.tests.SimpleBoardTest@534df152]" started-at="2025-07-06T19:50:27 AEST" name="testCreateBoard" finished-at="2025-07-06T19:50:29 AEST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBoard -->
+        <test-method signature="testDeleteBoard()[pri:0, instance:com.example.tests.SimpleBoardTest@534df152]" started-at="2025-07-06T19:50:29 AEST" name="testDeleteBoard" finished-at="2025-07-06T19:50:29 AEST" depends-on-methods="com.example.tests.SimpleBoardTest.testCreateBoard" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBoard -->
+      </class> <!-- com.example.tests.SimpleBoardTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
